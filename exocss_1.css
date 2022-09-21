@@ -28,8 +28,7 @@
 
 }
 .DivLongue{
-    width:100%;
-   
+    width:150px;
 }
 #MenuA{
     background-color:greenyellow;
@@ -38,8 +37,6 @@
     float:left;
     display:grid;
     place-items:center;
-
-    
 }
 
 #MenuB{
@@ -49,18 +46,24 @@
     float:left;
     display:grid;
     place-items:center;
-
 }
 
 #news{
+ 
     width:200px;
     height:200px;
-    float:right;
-    padding:10px;
     display:grid;
     place-items:center;
     background-color:red;
+position:absolute;
+right:0px;
+
 }
 #text{
     word-wrap:break-word;
+  
+}
+#autre{
+    width:auto;
+    
 }
